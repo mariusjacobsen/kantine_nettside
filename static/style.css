@@ -1,25 +1,87 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
     margin: 0;
+    color: #333;
 }
 
-nav {
-    background-color: #222;
-    padding: 1rem;
+/* Toppmeny */
+header {
+    background-color: white;
+    border-bottom: 4px solid #f08c21;
+    padding: 10px 30px;
 }
 
-nav a {
-    color: white;
+header img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+header a {
+    color: #333;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 20px;
 }
 
+header a:hover {
+    color: #f08c21;
+}
+
+/* Innhold */
 main {
-    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+h1 {
+    color: #f08c21;
+    border-bottom: 3px solid #6b7340;
+    padding-bottom: 5px;
+}
+
+main a {
+    color: #f08c21;
+}
+
+/* Meny */
+.dag {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.dag h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.dag p {
+    margin: 5px 0;
+}
+
+/* Varer */
+.vare {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.vare img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.pris {
+    color: #f08c21;
+    font-weight: bold;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 1rem;
+    padding: 20px;
+    color: #777;
+    border-top: 1px solid #ddd;
 }
