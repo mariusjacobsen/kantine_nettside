@@ -1,7 +1,5 @@
-from sysconfig import get_default_scheme
-
 from flask import Flask, render_template
-from kantinedata import varer
+from kantinedata import varer, meny
 
 app = Flask(__name__)
 
@@ -11,8 +9,8 @@ def hjem():
     return render_template("index.html")
 
 @app.route('/meny')
-def meny():
-    return render_template("meny.html")
+def vis_meny():
+    return render_template("meny.html", meny=meny)
 
 @app.route('/varer')
 def vis_varer():

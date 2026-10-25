@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 
-{% block content %}
-    <h1>Meny</h1>
+{% block title %}Meny{% endblock %}
 
+{% block content %}
+     <h1>Ukens meny</h1>
+
+    {% for dag in meny %}
+        <div class="dag">
+            <h2>{{ dag.dag }}</h2>
+            <p><strong>{{ dag.rett }}</strong></p>
+            <p>{{ dag.beskrivelse }}</p>
+        </div>
+    {% endfor %}
 {% endblock %}

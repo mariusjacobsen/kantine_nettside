@@ -14,3 +14,11 @@ varer = [
     {"navn": "Te", "pris": 18, "bilde": "https://cateringspesialisten.no/wp-content/uploads/2018/02/te_cs.jpg"},
     {"navn": "Sjokoladekake", "pris": 38, "bilde": "https://franciska.networkui.org/content/uploads/sites/6/2017/02/Sjokoladekake-2.jpg"},
 ]
+
+meny = [
+    {"dag": "Mandag", "rett": "Kyllinggryte med ris", "beskrivelse": "Mør kylling i kremet tomatsaus, servert med ris og grønnsaker."},
+    {"dag": "Tirsdag", "rett": "Spaghetti bolognese", "beskrivelse": "Klassisk kjøttsaus med revet ost og ferskt brød ved siden av."},
+    {"dag": "Onsdag", "rett": "Fiskegrateng", "beskrivelse": "Lun fiskegrateng med kokte poteter, gulrøtter og remulade."},
+    {"dag": "Torsdag", "rett": "Taco", "beskrivelse": "Lag din egen taco med kjøttdeig, salat, ost og salsa."},
+    {"dag": "Fredag", "rett": "Pizza og salat", "beskrivelse": "Hjemmelaget pizza med skinke og ost, og en frisk salat."},
+]

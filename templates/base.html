@@ -11,18 +11,15 @@
 <body>
 
     <header>
-        <nav>
-            <a href="/">Hjem</a>
-            <a href="/meny">Meny</a>
-            <a href="/varer">Varer</a>
-            <a href="/kontakt">Kontakt</a>
-        </nav>
+        <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="Akademiet"></a>
+        <a href="/">Hjem</a>
+        <a href="/meny">Meny</a>
+        <a href="/varer">Varer</a>
+        <a href="/kontakt">Kontakt</a>
     </header>
 
     <main>
         {% block content %}
-
-
         {% endblock %}
     </main>
 
