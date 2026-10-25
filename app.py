@@ -1,6 +1,7 @@
 from sysconfig import get_default_scheme
 
 from flask import Flask, render_template
+from kantinedata import varer
 
 app = Flask(__name__)
 
@@ -14,8 +15,8 @@ def meny():
     return render_template("meny.html")
 
 @app.route('/varer')
-def varer():
-    return render_template("varer.html")
+def vis_varer():
+    return render_template("varer.html", varer=varer)
 
 @app.route('/kontakt')
 def kontakt():
